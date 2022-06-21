@@ -1,0 +1,11 @@
+.scrollContainer {
+    padding-bottom:50vh;
+}
+.scrollContainer h2 {
+    font-size: clamp(1.5rem, 3.5vw, 2.5rem);
+}
+@media (max-width:768px){
+    .scrollContainer {
+        padding-top:30vh;
+    }
+}
